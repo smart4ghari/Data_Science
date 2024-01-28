@@ -1,1 +1,127 @@
 
+File Handling or File I/O
+
+Collection related Datastructures : list,tuples,set,dict are used to store data temporarily
+
+But we need to store our data permanently or persistent storage
+
+We need to store our data for example : Bank transaction details.
+
+It's a very common programming practice.
+
+That's where file handling comes into picture -> where it becomes permanent.
+
+1. Files
+	* Helps to store only very less amount of data
+	
+2. Database
+	* To Store huge amount of data
+	* Used to store structured data ( Like excel files )
+	
+3. Big Data & Cloud platform
+	The below given examples are for unstructured data 
+		* Instagram posts -> per day it'll be post millions of post,
+		* Youtube videos -> per day it'll gets updated millions of videos and shorts
+	
+
+Files -> To store our data permanently
+
+Limitation : Very less amount of data will be stored.
+
+Types of Files:
+
+1. Text files / Character files
+	Only characters and words will be there
+	Ex : test.txt,new.py
+	
+2. Binary files
+	Videos, Audios, Images
+	Ex : test1.mp3, test2.mp4, pose.jpg
+	
+
+"To perform any operations on the file, first we need to open the file.
+Once after completing our operation we need to close the file"	
+
+Opening of the file:
+--------------------
+
+open()-> inbuilt function available in python
+
+Parameters : Name of the file, operation mode (purpose)
+
+Various modes of opening the file:
+----------------------------------
+
+1. r : read the file
+Open an existing file for read operation
+If the specified file is not available (FileNotFoundError)
+
+2. w : write the file
+
+Case 1: 
+	- Open an existing file for write operation
+	- If the specified file isn't available, it'll generate new file
+	
+Case 2:
+	- Open an existing file for write operation
+	- If the file contains data already means, it'll overwrites the existing data
+	
+3. a : append the file
+
+Open an existing file for append operation
+If the specified file isn't available, new file will be created.
+If the file contains data already means, it'll append the data without deleting old data.	
+
+4. r+ : read and write
+
+If the specified file isn't already available we'll get FileNotFoundError
+If the file is available but it contains some data then it overwrites data but not completely
+
+5. w+ : write and read
+
+If the specified file not available then new file will be created.
+If the file is available but it contains some data then it overwrites data but not completely
+
+6. a+ : append and read
+
+If the specified file not available then new file will be created.
+If the file available but contains some data: it'll append the data at the end
+
+7. x : exclusive write operation
+
+To perform write operation, the specified file shouldn't available.
+If the file already exists we'll get (FileExistsError)
+Compulsorily a new file will be created and it writes on that file.
+
+
+Quick recap:
+-----------
+
+New files will be created on these modes : w,w+,a+,x
+
+Files should be already available on these modes : r,r+
+
+File shouldn't be there for this mode : x
+
+Overwriting of existing data : w,w+,r+
+
+Text and Binary files:
+----------------------
+
+The above given modes are applicable only for text files (r,w,a,r+,w+,a+,x)
+
+We've two types of files (text and binary files)
+
+For binary files the concepts are same but mode changes like (rb,wb,ab,rb+,wb+,ab+,xb)
+
+
+
+"What happens if we don't specify any of the operation then it's read mode"
+
+
+Properties of File Object:
+-------------------------
+
+file = open(name_of_the_file, operation_mode)
+
+We can call them using various attributes and methods.
