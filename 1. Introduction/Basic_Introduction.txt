@@ -1,0 +1,2 @@
+Hello all ! Very basic intro to what's python will be here, to be specific just 10 cells will be there in Jupyter notebook if you wish to explore more please go to python extras
+where I'll cover all the concepts of python in detail
