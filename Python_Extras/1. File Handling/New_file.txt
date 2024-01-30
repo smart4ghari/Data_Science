@@ -1,0 +1,4 @@
+Hello, this is a new file generated due to write mode
+*--------------*No contents as of now!*--------------*This is for appending
+We're using line breaks here
+This is the last line of the file
