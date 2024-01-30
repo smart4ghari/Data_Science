@@ -1,0 +1,101 @@
+Writing data to the files:
+--------------------------
+
+1. write(str)
+2. writelines(list of lines)
+
+Program:
+--------
+
+# Step 1 : Open the file
+
+File = open("New_file.txt",'w') # New_file.txt doesn't exist before\
+
+# Step 2 : Do the operations
+File.write("Hello, this is a new file generated due to write mode")
+File.write("*--------------*")
+File.write("No contents as of now!")
+File.write("*--------------*")
+
+print("Data written successfully!")
+# Step 3 : Close the file
+
+File.close()
+
+Explanation:
+------------
+
+When we execute the above set of codes, it'll be written in a single line.
+
+We expect it to be written in a 3 separate line but we've not used any line break here.
+
+In order to get new line use '\n'.
+
+
+Here I've written another program using line breaks but instead of writing, I've used append
+
+Coding below:
+-------------
+
+# Step 1 : Again open the file for appending
+
+File = open("New_file.txt","a")
+
+# Step 2 : Do the operations
+
+File.write("This is for appending\n")
+File.write("We're using line breaks here\n")
+File.write("This is the last line of the file")
+
+# Step 3 : Close the file.
+
+print("Data appended successfully")
+File.close() 
+
+Read data from the files:
+-------------------------
+
+f.read() -> We'll get the total data
+
+If we want 'n' number of character alone means use f.read(n)
+
+If we need to read only one line -> f.readline()
+
+If we need to read multiple lines -> f.readlines()
+
+Read methods in short:
+
+f.read()
+f.read(n)
+f.readline()
+f.readlines()
+
+
+Special case scenario for read operations:
+------------------------------------------
+
+Consider sample.txt contains the following names
+
+*************
+Hari        *
+Anwar       *
+Ajay        *
+Vinay		*
+*************
+
+Look at the below example code
+
+file = open('sample.txt','r') 
+
+l1 = file.read(3) # Now 3 characters would be printed here
+
+# Har
+
+l2 = file.read(5) # Now the cursor is on 4th character
+
+#i(\n) (Here \n is also considered as one of the character)
+#Anw
+
+So the above one will be our output
+
+Here the cursor position plays a vital role here.
