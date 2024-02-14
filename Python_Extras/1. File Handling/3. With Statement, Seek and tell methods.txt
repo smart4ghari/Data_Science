@@ -1,0 +1,25 @@
+We'll always open the file, do some operations and close the file
+
+It's a very good practice to close the file once after completing our operations
+Sometimes we'll forget to close the file right?
+
+To handle that situation we're using with statement
+* It'll open the file
+* Performs the operations
+* Closes the file automatically once the operations completed
+	
+Advantages of with statement:
+-----------------------------
+
+1. We're not required to close file explicitly as it'll be closed automatically.
+2. We can group file related operations within the block so that readability will be imporoved
+
+
+tell() and seek() method:
+-------------------------
+
+we can use tell() method to know current cursor position(file pointer)
+
+seek() -> Move the cursor to the required position
+
+file.seek(n) -> Here 'n' numbers will be moved from beginning of the file.
