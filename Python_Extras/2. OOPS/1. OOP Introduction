@@ -1,0 +1,86 @@
+OOP - Object Oriented Programming
+
+POP - Procedure Oriented Programming
+
+In POP total activities is divided into multiple functions and we can call that function 
+based on our requirement
+
+OOP -> Real-time entities called objects
+
+Python contains both POP and OOP
+
+
+Questions:
+----------
+What is Class?
+What is Object?
+What is Reference?
+
+Class:
+------
+Take an example of building a house.
+
+First we need a plan to build a house.
+
+Imagine that the house is being built on Madurai city.
+
+I need the same house in chennai as well, so the plan will be same right.
+
+Only city differs.
+
+Here the plan or blueprint is known as "Class".
+
+Objects:
+--------
+Based on plan we're building a house which is known as "Object".
+
+The physical existence of a class is known as "Object".
+
+
+*-------------------------------------------------*
+Class : It's a blue print for objects.			  *
+Objects : Physical existence of class is object.  *
+*-------------------------------------------------*
+
+One class contains many objects.
+
+Every class can contain -> Variables and Methods
+
+Variables -> properties
+Methods -> Actions
+
+
+3 types of variable:
+-------------------
+
+1. Instance variable (Object level variable)
+2. Static variable (Class level variable)
+3. Local variable (Method level variable)
+
+
+3 types of Method:
+------------------
+
+1. Static method
+2. Instance method
+3. Class method
+
+
+Reference Variables
+-------------------
+
+Tv Object -> We need remote to operate
+
+Reference variable can be used to refer objects.
+By using reference variable, we can invoke functionality of object.
+
+For a single object, there may be a chance of multiple references.
+
+Creating object in python:
+---------------------------
+
+reference variable = classname()
+
+Whenever we're creating an object automatically constructor variable will be executed
+
+Here constructor is nothing but __init__() method.

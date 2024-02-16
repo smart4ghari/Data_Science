@@ -1,0 +1,38 @@
+Student class:
+--------------
+
+PVM - Python Virtual Machine
+
+Creating an object:
+
+Student()
+1. We're creating an object. PVM will create object and allocate memory
+2. PVM will execute __init__()
+   to declare and initialize variables of that object (Instance variable)
+
+*------------------------------------------------------------------------------------------*
+
+Reference Variable:
+   
+obj1 = Student()
+
+  For the newly created and already initialized object, we're assigning reference variable.
+  By using this object "obj1" we can access the variable and methods of that object.
+
+*-------------------------------------------------------------------------------------------*  
+
+What is self variable:
+----------------------
+
+1. Self is a reference variable, which is always pointing to current object, within the python
+to access current object we can use 'self'.
+2.The first argument to the constructor is self
+3.The first argument to the instance method is self
+4.We're not required to provide value to the self, PVM automatically provides it.
+5.We can always use inside the class only
+6.self isn't a keyword like lelf,kelf etc.
+
+*********************************************************************************************
+Inside constructor we can use self to declare object related variables(instance variables)  *
+Inside instance method, we can use self to access the values of instance variables          *
+*********************************************************************************************	
