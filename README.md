@@ -37,4 +37,4 @@ This repository is designed to be:
 * Your feedback and suggestions are invaluable for refining the content and making it more helpful for everyone.
 * Let's embark on this data science adventure together!
 
-<img src = "extras/AI.png" alt = "Artificial Intelligence" width = "200" height = "200">
+<img src = "extras/AI.png" alt = "Artificial Intelligence" width = "400" height = "400">
