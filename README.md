@@ -36,3 +36,5 @@ This repository is designed to be:
 * This is a work in progress, and I appreciate your patience as I continue building it.
 * Your feedback and suggestions are invaluable for refining the content and making it more helpful for everyone.
 * Let's embark on this data science adventure together!
+
+![AI](extras/AI.png)
