@@ -1,0 +1,43 @@
+Constructors:
+-------------
+
+* The constructor is a special method
+* The name of the constructor is always __init__
+* We're not required to call the constructor explicitly, it'll be executed automatically whenever 
+we're creating an object
+
+How Many times constructor will be executed?
+--------------------------------------------
+
+Per object constructor will be executed only once.
+
+Purpose of using Constructor:
+-----------------------------
+Both declaration and initialization is going to be performed inside constructor.
+So the main purpose of constructor is to declare and initialize "instance variable".
+
+__init__ means initialization.
+
+Within python class constructor is always optional.
+If we're not providing any constructor means then python will provide default constructor.
+Default constructor will be provided internally by PVM.
+
+Is it possible to call constructor explicitly?
+----------------------------------------------
+Yes, we can call the constructor explicitly. Then it'll be executed just like a normal method and
+new object won't be created.
+
+If we're defining multiple constructor PVM only consider last constructor.
+
+Difference between constructor and method:
+------------------------------------------
+
+         Methods  												Constructor
+	
+1. Method name can be anything					1. Constructor name should be __init__()
+2. Methods wont' be executed automatically,     2. Constructors are executed automatically
+   we need to call explicitly
+3. Per object we can call methods any number 	3. Per object we can call constructor only once
+   of times										
+4. Inside method, we can write business logic   4. Inside constructor we've to write code to
+   based on our requirement						   declare and initialize instance variable.
