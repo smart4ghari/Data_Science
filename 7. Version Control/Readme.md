@@ -1,7 +1,7 @@
 # Version control system and git commands
 
 
-<img src = "extras/GIT.gif" alt = "GIt" width = "400" height = "250">
+<img src = "/extras/GIT.gif" alt = "GIt" width = "400" height = "250">
 
 
 ## Introduction
