@@ -1,5 +1,9 @@
 # Version control system and git commands
 
+
+<img src = "extras/GIT.gif" alt = "GIt" width = "400" height = "250">
+
+
 ## Introduction
 
 In this repository I'll share an overview about the necessity of version control system and the basic git commands which we'll 
